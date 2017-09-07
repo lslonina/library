@@ -25,6 +25,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.apache.pdfbox:pdfbox:2.0.1')
+    compile group: 'org.bouncycastle', name: 'bcprov-jdk16', version: '1.46'
 	compile('com.google.guava:guava:23.0')
 
 	runtime('com.h2database:h2')
